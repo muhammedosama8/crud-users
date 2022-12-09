@@ -1,7 +1,4 @@
-.info svg{
-    height: 4rem;
-    width: 4rem;
-}
+
 .info span{
     color: #777;
 }
@@ -16,9 +13,12 @@ svg{
 }
 .buttons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 2rem;
 }
 a svg{
     color: green;
+}
+.buttons .delete{
+    color: #c00303bd;
 }
