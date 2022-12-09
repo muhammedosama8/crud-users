@@ -32,8 +32,8 @@ function EditUser(){
             setDate(res.data().birthdate)
             setEmail(res.data().email)
         })
-    // eslint-disable-next-line
-    },[])
+        console.log("edit.js")
+    },[userCollection])
 
     return (
         <>
