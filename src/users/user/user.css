@@ -1,0 +1,24 @@
+.info svg{
+    height: 4rem;
+    width: 4rem;
+}
+.info span{
+    color: #777;
+}
+.delete{
+    background: none;
+    border: none;
+}
+svg{
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+a svg{
+    color: green;
+}

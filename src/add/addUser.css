@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+.back{
+    display: inline-block;
+    margin: 2rem 0;
+}
+.back a{
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.form{
+    width: 75%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.form label{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+.form input{
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 0.75rem;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+}
+.form .submit{
+    width: auto;
+    padding: 8px 40px;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
