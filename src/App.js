@@ -3,10 +3,12 @@ import Users from "./users/users";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AddUser from "./add/addUser";
 import EditUser from './edit/editUser';
+import Footer from './footer/footer';
 
 function App() {
   
   return (
+    <>
     <div className="app">
       <BrowserRouter>
         <Routes>
@@ -15,7 +17,9 @@ function App() {
           <Route path="/add-user" element={<AddUser />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
+    </>
   );
 }
 

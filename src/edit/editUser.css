@@ -11,6 +11,7 @@ h1{
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .form{
     width: 75%;
@@ -36,4 +37,5 @@ h1{
     background-color: green;
     color: #fff;
     border: none;
+    cursor: pointer;
 }

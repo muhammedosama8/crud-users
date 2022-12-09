@@ -24,7 +24,7 @@ function AddUser(){
         name.current.value = ''
         age.current.value = ''
         email.current.value= ''
-        
+        date.current.value = ''
     }
     return(
         <>
