@@ -25,15 +25,18 @@ function EditUser(){
         
         navigate('/')
     }
-    useEffect(()=> {
+    const getUser = () => {
         getDoc(userCollection).then(res => {
             setName(res.data().name)
             setAge(res.data().age)
             setDate(res.data().birthdate)
             setEmail(res.data().email)
         })
-        console.log("edit.js")
-    },[userCollection])
+    }
+    useEffect(()=> {
+        getUser()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
 
     return (
         <>

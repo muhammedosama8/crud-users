@@ -1,14 +1,7 @@
-import { deleteDoc, doc } from 'firebase/firestore';
 import { Link } from 'react-router-dom';
-import { db } from '../../shared/firebase-config';
 import './user.css'
 
-function User({user}){
-    const deleteUser = async (id)=> {
-        const userDoc = doc(db, 'users', id)
-        await deleteDoc(userDoc)
-    }
-    
+function User({user, deleteUser}){
     return(
         <>
         <div className="user-ui">
