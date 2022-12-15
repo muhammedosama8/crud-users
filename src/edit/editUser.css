@@ -16,7 +16,8 @@ h1{
 .form{
     width: 70%;
     margin: 3rem auto;
-    background-color: #dedede;
+    background-color: #dedede12;
+    box-shadow: 0 0 5px #dedede;
     padding: 2rem;
     border-radius: 16px;
 }

@@ -9,18 +9,7 @@
     padding: 8px 16px;
     border-radius: 4px;
 }
-.users{
-    display: grid;
-    grid-template-columns:  repeat(4, 1fr);
-    gap: 32px;
-}
-.user{
-    background-color: #ededed;
-    border-bottom: 4px solid var(--primary-color);
-    box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 8%);
-    padding: 2rem 1rem;
-    border-top: 3px solid #555;
-}
+
 /* Tablet Responsive*/
 @media (max-width: 768px) {
     .users{
@@ -33,4 +22,51 @@
     .users{
         grid-template-columns:  repeat(1, 1fr);
     }
+}
+
+
+table{
+    width: 100%;
+    margin-top: 2rem;
+}
+thead tr{
+    color: #444;
+}
+thead th{
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: left;
+    border-bottom: 1px solid rgb(136 134 134 / 32%);
+
+}
+tbody td{
+    text-align: left;
+    padding: 12px 10px ;
+    border-bottom: 1px solid rgb(136 134 134 / 32%);
+}
+tbody tr:nth-child(odd){
+    background-color: #d2d2d24a;
+}
+tbody .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+a svg {
+    color: green;
+}  
+.buttons .delete {
+    background: none;
+    border: none;
+    color: #c00303bd;
+}
+.no-users{
+    text-align: center;
+    font-size: 32px;
+    display: block;
 }
